@@ -1,12 +1,6 @@
 local ESX = exports['es_extended']:getSharedObject()
 
 
-RegisterCommand('xd', function()
-    lib.callback("xd", false, false)
-    
-end)
-
-
 lib.callback.register("xd", function()
     ExecuteCommand("e phone") 
     lib.progressBar({
